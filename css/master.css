@@ -1,0 +1,107 @@
+body{
+  background: #D0F1F2;
+  margin : 0;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #104F69;
+  min-height: 50vh;
+  padding: 1em;
+}
+
+h2{
+  color:#104F69 ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p{
+  background:;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fable01 {
+  padding-bottom: 250px;
+  background-color: #05632c;
+}
+
+#fable01 h2 {
+  padding-top: 250px;
+  color: #eaf7e9;
+}
+
+#fable01 p {
+  max-width:850px;
+  text-align: justify;
+  line-height: 2;
+  background: url('images/fox.png')50% 50% no-repeat;
+  padding-top: 100px;
+  color: #eaf7e9;
+}
+
+#fable02 {
+  padding: 200px;
+  background: url('images/lion.png') 50% 50% no-repeat;
+  background-size:contain;
+  background-attachment: fixed;
+  background-color: #ffe28c;
+}
+
+#fable02 h2 {
+  color: #a60202;
+}
+
+#fable02 p {
+  color: #330a03;
+}
+
+
+#fable02 .main-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#fable02 figure img {
+  width : 150%;
+}
+
+
+#fable03 h2 {
+  padding-bottom: 50px;
+  color: #0a0054;
+}
+
+#fable03 p {
+  max-width: 800px;
+  text-align: justify;
+  color: #07003d;
+}
+
+
+#fable03 {
+  padding: 150px;
+  background: url('images/tortoise2.png') 50% 50%;
+  background-size: cover;
+  margin-top: 200px;
+  background-color: #D0F1F2;
+}
+
+#fable03 .fable-moral {
+  text-align: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
